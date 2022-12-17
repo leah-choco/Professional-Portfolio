@@ -1,5 +1,10 @@
+/*Put all CSS here on this file. Doesn't need to be imported anywhere else */
 .App {
   text-align: center;
+}
+
+.main-content {
+  background-image: ;
 }
 
 /*I want to add background image of leaves, background of the components to be white with gold border*/

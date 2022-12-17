@@ -5,4 +5,6 @@ import "../../assets/Project.css";
 Recipes Translator
 Goal-E
 Project 3 (Coming Soon)
-Weather Dashboard maybe? */
+Weather Dashboard maybe? 
+
+Map through array of content */
