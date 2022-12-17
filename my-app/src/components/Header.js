@@ -9,5 +9,5 @@ import React, { useState } from "react";
 --Will have Resume, Google Link to resume */
 
 <a
-          href="#about"
+          href="google docs sharable link"
           //target = "_blank" this opens up a new tab to my google docs
