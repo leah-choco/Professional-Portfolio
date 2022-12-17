@@ -7,3 +7,7 @@ import React, { useState } from "react";
 -Will have Portfolio, different projects in components
 --Will have contact form
 --Will have Resume, Google Link to resume */
+
+<a
+          href="#about"
+          //target = "_blank" this opens up a new tab to my google docs
