@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div>
       <h1>Leah Choco</h1>
-      <img></img>
+      <img src=""></img>
       <p className="about-me">
         I currently reside in Middle Tennessee. Juan, my husband, and I are
         raising three children. We recently decided that I should complete a
