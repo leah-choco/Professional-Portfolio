@@ -7,6 +7,11 @@
   background-image: ;
 }
 
+.about-me{
+  background-color: whitesmoke;
+  border: goldenrod;
+}
+
 /*I want to add background image of leaves, background of the components to be white with gold border*/
 
 /*.App-logo {
