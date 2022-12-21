@@ -1,6 +1,6 @@
-//Look up MUI as a CSS library
-//Look up Tailwind similar to Bulma
+//Imported bootstrap library
 import "./assets/App.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
