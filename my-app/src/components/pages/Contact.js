@@ -2,8 +2,6 @@ import React from "react";
 
 import "../../assets/App.css";
 
-import "./style.css";
-
 //At the top, add my own contact information
 
 const ContactForm = () => {

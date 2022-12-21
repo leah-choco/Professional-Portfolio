@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../assets/About.css";
+import "../../assets/App.css";
 
 //My photo
 //Component with short life story
