@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Professional-Portfolio/static/css/main.661a0b38.css",
+    "main.js": "/Professional-Portfolio/static/js/main.64ec4acb.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/Professional-Portfolio/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Bloomartgallery_Watercolor-Botanical-garden-jungle-moss-green-scaled-e1665654468898.jpeg": "/Professional-Portfolio/static/media/Bloomartgallery_Watercolor-Botanical-garden-jungle-moss-green-scaled-e1665654468898.a2657d8d7cea2d7a138e.jpeg",
+    "index.html": "/Professional-Portfolio/index.html",
+    "main.661a0b38.css.map": "/Professional-Portfolio/static/css/main.661a0b38.css.map",
+    "main.64ec4acb.js.map": "/Professional-Portfolio/static/js/main.64ec4acb.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/Professional-Portfolio/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.661a0b38.css",
+    "static/js/main.64ec4acb.js"
+  ]
+}
