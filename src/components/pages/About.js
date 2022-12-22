@@ -8,7 +8,7 @@ import "../../assets/App.css";
 export default function About() {
   return (
     <div>
-      <h1>Leah Choco</h1>
+      <h1 className="my-name">Leah Choco</h1>
       <img src="./assets/images/IMG_1381.JPG" alt="" className="Leah-image" />
       <p className="about-me">
         I currently reside in Middle Tennessee. Juan, my husband, and I are

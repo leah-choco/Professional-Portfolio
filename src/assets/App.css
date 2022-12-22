@@ -3,13 +3,26 @@
   text-align: center;
 }
 
+#header-layout{
+  text-align: center;
+}
+
+.my-name{
+  
+  color:black;
+}
+
 .main-content {
   background-image: url('./images/Bloomartgallery_Watercolor-Botanical-garden-jungle-moss-green-scaled-e1665654468898.jpeg');
+  background-size: contain;
+  width: 100vh;
+  height: 100vh;
+
 }
 
 .about-me{
-  background-color: whitesmoke;
-  border: goldenrod;
+  background-color: white;
+  border: goldenrod 5cm;
 }
 
 .Leah-image{
