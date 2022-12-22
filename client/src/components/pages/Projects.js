@@ -1,6 +1,6 @@
-//import React from "react";
+import React from "react";
 
-//import "../../assets/App.css";
+import "../../assets/App.css";
 /*This will have 4 different components: 
 Recipes Translator
 Goal-E
