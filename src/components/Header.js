@@ -26,7 +26,6 @@ function Header({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#projects"
-          //target = "_blank" this opens up a new tab to my google docs
           onClick={() => handlePageChange("Projects")}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={
@@ -48,9 +47,10 @@ function Header({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="https://docs.google.com/document/d/1-B0Bd3GqD-P8bBREHyThjBUX6MdnrExAtxKIVBB67Yw/edit?usp=sharing"
-          //target= "_blank"
-          onClick={() => handlePageChange("Resume")}
-          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+          target="_blank"
+          rel="noreferrer"
+          //onClick={() => handlePageChange("Resume")}
+          //className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
           Resume
         </a>

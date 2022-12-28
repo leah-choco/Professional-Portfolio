@@ -15,14 +15,17 @@
 .main-content {
   background-image: url('./images/Bloomartgallery_Watercolor-Botanical-garden-jungle-moss-green-scaled-e1665654468898.jpeg');
   background-size: contain;
-  width: 100vh;
-  height: 100vh;
+ 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .about-me{
   background-color: white;
-  border: goldenrod 5cm;
+  border: goldenrod;
 }
 
 .Leah-image{
