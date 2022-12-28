@@ -42,4 +42,8 @@ If the desire to test comes up, jest would be used as that is already allowed fo
 
 ## License
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Questions
+
+With any questions, please email me: mrsleahchoco@gmail.com.
