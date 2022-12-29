@@ -33,6 +33,15 @@
   border-radius: 5cm;
 }
 
+.project-component{
+  margin: 5px;
+  border-color: goldenrod;
+}
+
+.buttons{
+  background-color: goldenrod;
+}
+
 /*I want to add background image of leaves, background of the components to be white with gold border*/
 
 /*.App-logo {

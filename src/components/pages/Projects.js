@@ -46,3 +46,37 @@ function Projects(props) {
 }
 
 export default Projects;*/
+
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+
+function Projects() {
+  return (
+    <Card className="project-component" style={{ width: "25rem" }}>
+      <Card.Img variant="top" src="../assets/images/coming soon.jpeg" />
+      <Card.Body>
+        <Card.Title>Goal-E</Card.Title>
+        <Card.Text>
+          This project was built by four student developers using SQL and
+          Handlebars.
+        </Card.Text>
+        <Button
+          variant="warning"
+          className="buttons"
+          href="https://github.com/leah-choco/Goal-E"
+        >
+          Github
+        </Button>
+        <Button
+          className="buttons"
+          href="https://evening-stream-22967.herokuapp.com/"
+          variant="warning"
+        >
+          Deployed Link
+        </Button>
+      </Card.Body>
+    </Card>
+  );
+}
+
+export default Projects;
