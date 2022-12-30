@@ -1,6 +1,7 @@
 /*Put all CSS here on this file. Doesn't need to be imported anywhere else */
 .App {
   text-align: center;
+  
 }
 
 #header-layout{
@@ -35,6 +36,8 @@
 .project-component{
   margin: 5px;
   border-color: goldenrod;
+  display: flex;
+  flex-direction: row;
 }
 
 .buttons{
