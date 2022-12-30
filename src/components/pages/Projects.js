@@ -49,11 +49,16 @@ export default Projects;*/
 
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import Image from "../../assets/images/dave-ruck-GQZg8CrP3sc-unsplash.jpg";
 
 function Projects() {
   return (
-    <Card className="project-component" style={{ width: "25rem" }}>
-      <Card.Img variant="top" src="../assets/images/coming soon.jpeg" />
+    <Card
+      border="warning"
+      className="project-component"
+      style={{ width: "25rem" }}
+    >
+      <Card.Img className="boat-image" variant="top" src={Image} />
       <Card.Body>
         <Card.Title>Goal-E</Card.Title>
         <Card.Text>
