@@ -5,17 +5,22 @@ import "../../assets/App.css";
 //My photo
 //Component with short life story
 
-export default function About() {
+import LeahImage from "../../assets/images/IMG_1381.JPG";
+import Card from "react-bootstrap/Card";
+
+function About() {
   return (
-    <div>
-      <img src="./assets/images/IMG_1381.JPG" alt="" className="Leah-image" />
-      <p className="about-me">
-        I currently reside in Middle Tennessee. Juan, my husband, and I are
-        raising three children. We recently decided that I should complete a
-        coding bootcamp to be certified in MERN. I am incredibly motivated to
-        continue my education. This is the place to find links to my projects,
-        and to all the other resources showing my work and experience.
-      </p>
-    </div>
+    <Card style={{ width: "50rem" }}>
+      <Card.Img className="Leah-image" variant="top" src={LeahImage} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+      </Card.Body>
+    </Card>
   );
 }
+
+export default About;
