@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+#header{
+  margin-bottom: 10px;
+}
+
 
 .main-content {
   background-image: url('./images/Bloomartgallery_Watercolor-Botanical-garden-jungle-moss-green-scaled-e1665654468898.jpeg');
@@ -25,9 +29,17 @@
 }
 
 .Leah-image{
-  size: 100px 180px;
+  max-height: 400px;
+  max-width: 200px;
+  display:flex;
+  margin-left: 300px;
+  border-radius: 50%;
+  
+ 
+}
 
-  border-radius: 5cm;
+.About-card{
+  margin-left: 250px;
 }
 
 .project-component{
@@ -52,6 +64,10 @@ footer{
 
 .boat-image{
   height: 200px;
+}
+
+.Resume-card{
+  margin-left: 200px;
 }
 /*I want to add background image of leaves, background of the components to be white with gold border*/
 

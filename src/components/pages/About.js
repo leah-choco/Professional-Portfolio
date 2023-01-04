@@ -10,13 +10,16 @@ import Card from "react-bootstrap/Card";
 
 function About() {
   return (
-    <Card style={{ width: "50rem" }}>
+    <Card className="About-card" border="warning" style={{ width: "50rem" }}>
       <Card.Img className="Leah-image" variant="top" src={LeahImage} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Leah Choco</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          I am a MERN certified web developer, currently living in Middle
+          Tennessee with my husband and three children. My hobbies include:
+          spending time with my family outside, studying history, and growing my
+          coding knowledge base. This app will stay up to date with current
+          Projects and certifications.
         </Card.Text>
       </Card.Body>
     </Card>

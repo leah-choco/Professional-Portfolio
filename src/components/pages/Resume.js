@@ -7,17 +7,15 @@ import Button from "react-bootstrap/Button";
 
 function Resume() {
   return (
-    <Card style={{ width: "30rem" }}>
+    <Card className="Resume-card" border="warning" style={{ width: "60rem" }}>
       <Card.Body>
         <Card.Title>Resume</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Proficiencies</Card.Subtitle>
         <Card.Text>
-          <ul>
-            <li>MongoDB and SQL</li>
-            <li>Express</li>
-            <li>React</li>
-            <li>Node.js</li>
-          </ul>
+          <p>Languages that I have worked with: HTML, CSS, Javascript, React</p>
+          <p>
+            Technologies that I have learned: SQL and MongoDB, Express, Node.js
+          </p>
         </Card.Text>
         <Button
           variant="warning"

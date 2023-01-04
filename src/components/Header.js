@@ -13,7 +13,7 @@ href="google docs sharable link"
 //target = "_blank" this opens up a new tab to my google docs*/
 function Header({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" id="header">
       <h3 className="nav-item">Leah Choco</h3>
       <li className="nav-item">
         <a
