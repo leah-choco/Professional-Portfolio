@@ -1,9 +1,8 @@
-/*import React from "react";
+import React from "react";
 
 import "../../assets/App.css";
 
-
-const projects = [
+/*const projects = [
     {
         id: 1,
         name: "Goal-E",

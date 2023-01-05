@@ -14,7 +14,6 @@ href="google docs sharable link"
 function Header({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs" id="header">
-      <h3 className="nav-item">Leah Choco</h3>
       <li className="nav-item">
         <a
           href="#about"
@@ -54,6 +53,9 @@ function Header({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
+      <h3 className="nav-item" id="my-name">
+        Leah Choco
+      </h3>
     </ul>
   );
 }

@@ -2,29 +2,21 @@
 .App {
   text-align: center;
   
-}
-
-#header-layout{
-  text-align: center;
+  
 }
 
 #header{
-  margin-bottom: 10px;
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-
-.main-content {
-  background-image: url('./images/Bloomartgallery_Watercolor-Botanical-garden-jungle-moss-green-scaled-e1665654468898.jpeg');
-  background-size: contain;
-  height: 600px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+#my-name{
+ margin-left: 250px;
 }
 
 .about-me{
-  background-color: white;
+  background-color: rgb(220, 213, 213);
   border: goldenrod;
 }
 
@@ -35,11 +27,13 @@
   margin-left: 300px;
   border-radius: 50%;
   
- 
 }
 
 .About-card{
-  margin-left: 250px;
+ margin-left: 275px;
+  display: flex;
+  justify-items: center;
+  margin-bottom: 100px;
 }
 
 .project-component{
@@ -47,18 +41,27 @@
   border-color: goldenrod;
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 .buttons{
   margin: 5px;
 }
 
+.contact-form{
+  margin-bottom: 100px;
+}
+
+.contact-button{
+  background-color: goldenrod;
+}
+
 footer{
   position: fixed;
-  height: 50px;
-  bottom: 0;
   width: 100%;
-  background-color: white;
+  height: 40px;
+  background-color: whitesmoke;
+  justify-content: center;
 
 }
 
@@ -68,6 +71,7 @@ footer{
 
 .Resume-card{
   margin-left: 200px;
+  margin-bottom: 250px;
 }
 /*I want to add background image of leaves, background of the components to be white with gold border*/
 
